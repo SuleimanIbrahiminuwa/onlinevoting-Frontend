@@ -1,0 +1,95 @@
+
+
+.logo{
+    align-self: center;
+}
+
+nav{
+   top: 0px;
+   left: 0px; 
+   width: 1440px;
+   height: 96px;
+   background-color:  #FFFF;
+   position: fixed;
+   align-items: center;
+   overflow: hidden;
+
+} 
+
+.links-logo{
+    left: 15%;
+    top: 30%;
+    font-weight: bolder;
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.links-logo{
+    color: #012A4A;
+    text-decoration: none;
+}
+
+
+
+.menu-itmes{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.menu-itmes a{
+    text-decoration: none;
+    color: #012A4A;
+}
+
+.loginbtn{
+    position: relative;
+    float: right;
+    top: 20%;
+    right: 5.5rem;
+    
+}
+.loginbtn label a{
+    margin-right: 2rem;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none;
+    color: #012A4A;
+    
+}
+
+
+
+.btn{
+    background: linear-gradient(105.38deg, #4361EE 19.05%, #3A0CA3 82.03%, #3A0CA3 82.03%);
+    text-align: center;
+    color: #FFFF;
+    width: 190px;
+    height: 48px;
+    border-radius: 6px;
+}
+
+.nav-link{
+   padding: 12px;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 25px;
+   
+  }
+ 
+ @media screen and (max-width: 870px) {
+    nav .nav-links {
+       float: none;
+       display: block;
+       text-align: left;
+    }
+    .rightSection {
+       float: none;
+    }
+ }
+ 

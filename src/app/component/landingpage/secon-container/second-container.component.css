@@ -1,0 +1,140 @@
+.second-container{
+    width: 100%;
+    display: block;
+    padding-left: 10rem;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.container-item{
+    display: flex;    
+}
+
+
+
+.right-image{
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
+.text-header{
+    color: #3A0CA3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 10rem;
+    
+    
+
+}
+
+.step-one p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 60px;
+    
+}
+.step-one h2{
+    color: #012A4A;
+}
+.step-two p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 7rem;
+}
+
+.step-two h2{
+    color: #012A4A;
+}
+
+.step-three p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 9rem;
+}
+
+.step-three h2{
+    color: #012A4A;
+}
+
+.first-card-component{
+    display: flex;
+    margin-top: 5rem;
+    gap: 24px;
+}
+
+.second-card-component{
+    display: flex;
+    margin-top: 5rem;
+    gap: 24px;
+}
+
+
+.first-frame{
+    width: 374px;
+    height: 218px;
+    /* top: 2646px; */
+    padding: 32px 24px;
+    line-height: 2rem;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.second-frame{
+    width: 374px;
+    height: 218px;
+    padding: 32px 24px;
+    top: 2646px;
+    line-height: 2rem;
+    background: rgba(0, 0, 0, 0.04);
+}
+.third-frame{
+    width: 374px;
+    height: 218px;
+    top: 2646px;
+    line-height: 2rem;
+    padding: 32px 24px;
+    background: rgba(0, 0, 0, 0.04);
+}
+.fouth-frame{
+    width: 374px;
+    height: 218px;
+    align-items: flex-start;
+    top: 100rem;
+    line-height: 2rem;
+    padding: 32px 24px;
+    background: rgba(0, 0, 0, 0.04);
+   
+    
+}
+.fifth-frame{
+    width: 374px;
+    height: 218px;
+    align-items: flex-start;
+    top: 100rem;
+    line-height: 2rem;
+    padding: 32px 24px;
+    background: rgba(0, 0, 0, 0.04);
+   
+}
+.sixth-frame{
+    width: 374px;
+    height: 218px;
+    align-items: flex-start;
+    top: 100rem;
+    line-height: 2rem;
+    padding: 32px 24px;
+    background: rgba(0, 0, 0, 0.04);
+  
+}
+
+
+
+
+
+

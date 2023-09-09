@@ -1,0 +1,39 @@
+<div class="form-container">
+    <div class="row">
+        <div class="signup-logo">
+            <a routerLink="/">
+                <label>Voting Appliction</label>
+            </a>
+            
+            <p>Get Started with Online Voting</p>
+        </div>
+        
+        <div class="signup-form-component">
+            <form #signUpForms="ngForm"   (ngSubmit)="onCreateUsers(signUpForms.value)" action="" class="signup-form-component">
+                <label for="">First Name</label>
+                <input class="signup-form-control"  name="firstName" ngModel  placeholder="Enter Your First Name" type="text" required />
+                <label for="">Last Name</label>
+                <input class="signup-form-control" name="lastName"  ngModel placeholder="Enter Your Last Name" type="text" required />
+                <label for="">Email</label>
+                <input class="signup-form-control"  name="email"  ngModel placeholder="Enter Your Email" type="email" required/>
+                <label for="">Phone Number</label>
+                <input class="signup-form-control" name="phoneNumber" ngModel  placeholder="Enter Your Phone Number" type="number" required/>
+                <label for="">Password</label>
+                <input class="signup-form-control" name="password" ngModel  placeholder="Enter Your Password" type="password" required/>
+                <label  for="">Confirm Password</label>
+                <input class="signup-form-control"  name="confirmPassword" ngModel  placeholder="Enter Confirm Password" type="password" required/>
+             
+                <button type="submit" class="signup-btn-control">
+                    Sign Up
+                </button>
+               
+                <p class="signup-paragraph">Already have an account? <a routerLink="/login">Login</a></p>
+            </form>
+
+        </div>
+
+        <div class="sign-up-image">
+        <img class="signup-right-side-img" src="../../../assets/img/signUp.png"/>
+        </div>
+    </div>
+</div>

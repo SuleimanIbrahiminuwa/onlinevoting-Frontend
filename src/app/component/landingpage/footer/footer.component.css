@@ -1,0 +1,116 @@
+.parent-footer{
+    width: 100%;
+    background: rgba(216, 187, 255, 0.3);
+    height: 453px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem; 
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px;
+    gap: 24px;
+}
+
+.parent-footer h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 65px;
+    color: black;
+}
+.parent-footer p{
+    width: 628px;
+    height: 52px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 3rem;
+}
+.btn-footer{
+    background: linear-gradient(105.38deg, #4361EE 19.05%, #3A0CA3 82.03%, #3A0CA3 82.03%);
+    text-align: center;
+    color: #FFFF;
+    width: 263px;
+    height: 58px;
+    border-radius: 3px;
+    gap: 20rem;
+    
+}
+.form-control{
+    gap: 5rem;    
+}
+
+.form-input{
+    width: 263px;
+    height: 58px;
+    padding: 16px;
+    margin-right: 2rem;
+}
+
+.sub-footer{
+    background: #012A4A;
+    height: 166px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-menu{
+    padding: 20px;
+    margin-top: 35px;
+    
+  
+}
+.first-list{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+   
+}
+.social-media-icon p{
+   margin-top: 5rem;
+   margin-left: 25rem;
+   color: #FFFFFF;
+
+}
+
+.second-list{
+    text-decoration: none;
+    padding: 10px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    
+    
+}
+
+.left-text label{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+.left-text p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    
+}
+.left-text{
+    padding: 45px 150px;
+    line-height: 33px;
+
+}
+
+
+
+
+

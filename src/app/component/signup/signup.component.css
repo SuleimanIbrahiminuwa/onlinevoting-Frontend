@@ -1,0 +1,84 @@
+.signup-logo label{
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #012A4A;
+}
+.signup-logo{
+ margin-top: 5rem;
+ margin-left: 6rem;
+}
+
+.signup-logo p{
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+font-style: normal;
+color: #000000;
+margin-top: 65px;
+}
+
+.signup-logo a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.signup-form-component{
+   align-items: center; 
+   padding: 45px;
+}
+
+
+.signup-form-component label{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+.signup-btn-control{
+    background: linear-gradient(105.38deg, #4361EE 19.05%, #3A0CA3 82.03%, #3A0CA3 82.03%);
+    text-align: center;
+    color: #FFFF;
+    width: 396px;
+    height: 48px;
+    border-radius: 6px; 
+    margin-top: 30px;
+}
+
+.signup-paragraph {
+    margin-top: 20px;
+    text-decoration: none;
+}
+.signup-paragraph a{
+    text-decoration: none;
+    color: #012A4A;
+}
+
+
+.signup-form-control {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 9px 16px 8px;
+gap: 20rem;
+width: 395px;
+height: 48px;
+background: #FFFFFF;
+opacity: 0.8;
+border: 1px solid #000000;
+border-radius: 6px;
+margin-bottom: 20px;
+
+}
+
+
+.signup-right-side-img{
+    left:  610px;;
+    height: 1284px;
+    position: absolute;
+    top: 1px;
+}
